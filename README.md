@@ -76,7 +76,7 @@ Prices on 24 Nov 2026, shipped to Germany, VAT included. Delivery takes 1 to 2½
 
 | Part | Price incl. shipping |
 |---|---|
-| [1× P2.5 LED panel 320 × 160 mm, 128 × 64, 1/32 scan](https://de.aliexpress.com/item/1005009120091613.html): the whole screen in one panel, no seam | 14.29 + 13.67 = 27.96 € |
+| [1× P2.5 LED panel 320 × 160 mm, 128 × 64, 1/32 scan](https://de.aliexpress.com/item/1005006155582430.html): the whole screen in one panel, no seam. A buyer's review says it works with an ESP32-S3; power and HUB75 cables included | 16.39 + 13.10 = 29.49 € |
 | or [2× P2.5 64×64 panels, 160 × 160 mm](https://de.aliexpress.com/item/1005004050083454.html) (more reviews) | 2 × 10.39 + 15.33 = 36.11 € |
 | [ESP32-S3 HUB75 board (MatrixPortal S3 clone)](https://de.aliexpress.com/item/1005009983810550.html) | 18.99 + 4.00 = 22.99 € |
 | [5 V 4 A power supply, EU plug (BTF-Lighting, CE)](https://de.aliexpress.com/item/1005010516995696.html) | 12.99 € |
@@ -84,7 +84,9 @@ Prices on 24 Nov 2026, shipped to Germany, VAT included. Delivery takes 1 to 2½
 | [DC jacks 5.5 × 2.1 mm, 5 pcs](https://de.aliexpress.com/item/1005004637388048.html) | 1.35 € |
 | [M3 heat-set inserts, 50 pcs](https://de.aliexpress.com/item/1005010462686506.html) | 2.39 + 1.90 = 4.29 € |
 | M3 screws, wire, shipping of the small parts | about 5 € |
-| **Electronics total** | **about 76 € (84 € with two panels)** |
+| **Electronics total** | **about 78 € (84 € with two panels)** |
+
+Check the panel's driver chip before ordering: the ESP32 library works with the common ones (ICN2037/2038S, FM6126A, FM6124, MBI5124, DP3246), but not with the PWM chips of video-wall modules. Most listings don't name the chip.
 
 The filament, the acrylic and the tube are cheaper or easier to get locally (about 38–60 €). With them the whole build comes to **about 115–135 €**.
 
