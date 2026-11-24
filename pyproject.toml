@@ -1,0 +1,13 @@
+[project]
+name = "ulm-dfi-mini"
+version = "0.1.0"
+description = "Desk-size replica of an Ulm tram/bus stop departure display (DFI), driven by an ESP32"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "build123d>=0.9",
+    "bpy>=4.2",
+    "pillow>=13.0.0",
+]
+
+[tool.uv]
+package = false
