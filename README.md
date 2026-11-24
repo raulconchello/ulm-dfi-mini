@@ -52,6 +52,24 @@ Bought parts:
 - 5 V 4 A power supply and a DC jack (in the base; the cable runs up inside the pole)
 - M3 screws and heat-set inserts
 
+## Cost
+
+A rough estimate from November 2026, without printing time or electricity:
+
+| | |
+|---|---|
+| PLA, about 1.6 kg (dark grey 690 g, light grey 850 g, a little white, black and red) | 20–30 € |
+| 2× P2.5 64×64 LED panels | 35–70 € |
+| ESP32-S3 HUB75 board | 15–25 € |
+| 5 V 4 A power supply | 10–15 € |
+| Smoked acrylic, 3 mm, cut to 328 × 168 mm | 8–15 € |
+| Ø40 mm aluminium tube, 55 cm (a PVC pipe is 3–5 €) | 10–15 € |
+| 24 mm button, DC jack, wires | 8–12 € |
+| M3 screws and heat-set inserts | 0–12 € |
+| **Total** | **about 105–195 €, realistically around 140 €** |
+
+The base tiles are almost half of the plastic (about 750 g). A wooden board instead saves about 10 €. `uv run python filament.py` recalculates the filament after a design change.
+
 <img src="docs/img/front.jpg" alt="Front view with dimensions">
 
 <img src="docs/img/exploded.jpg" alt="Exploded view of the parts">
